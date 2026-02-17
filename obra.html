@@ -1,0 +1,127 @@
+<!doctype html> 
+<html lang="pt"> 
+    <head> 
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <title>Obra Literária — Carlos Wallenstein</title>         
+        <meta name="description" content="Obra literária de Carlos Wallenstein: poesia, prosa, textos teatrais e publicações."/> 
+        <link rel="stylesheet" href="styles.css"/> 
+    </head>     
+    <body> 
+        <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a> 
+        <header class="site-header" role="banner"> 
+            <div class="container header__wrap"> 
+                <a class="brand" href="index.html">  <span class="brand__logo" aria-hidden="true">CW</span>  <span class="brand__name">Carlos Wallenstein</span>  <span class="brand__years">1926–2026</span>  </a> 
+                <nav class="site-nav" aria-label="Navegação principal"> 
+                    <button class="site-nav__toggle" aria-expanded="false" aria-controls="menu">Menu</button>                     
+                    <ul id="menu" class="site-nav__list"> 
+                        <li>
+                            <a href="biografia.html">Biografia</a>
+                        </li>                         
+                        <li>
+                            <a href="obra.html" aria-current="page">Obra Literária</a>
+                        </li>                         
+                        <li>
+                            <a href="arquivo.html">Arquivo Multimédia</a>
+                        </li>                         
+                        <li>
+                            <a href="index.html#centenario">Centenário 2026</a>
+                        </li>                         
+                        <li>
+                            <a href="index.html#contribua">Contribua</a>
+                        </li>                         
+                    </ul>                     
+                </nav>                 
+            </div>             
+        </header>         
+        <main id="conteudo"> 
+            <section class="hero hero--sub"> 
+                <div class="container hero__content"> 
+                    <h1 class="hero__title">Obra Literária</h1> 
+                    <p class="hero__subtitle">Poesia, prosa e textos para teatro.</p> 
+                </div>                 
+            </section>             
+            <section class="section" id="poesia"> 
+                <div class="container"> 
+                    <h2>Poesia</h2> 
+                    <p class="lead">Poemas publicados e inéditos; manuscritos e dossiês de preparação.</p> 
+                    <div class="cards"> 
+                        <article class="card"> 
+                            <h3>Poemas selecionados</h3> 
+                            <p>[Breve apresentação + ligação para leitura/visualização]</p> 
+                            <a class="card__link" href="#poesia">Ler seleção →</a> 
+                        </article>                         
+                        <article class="card"> 
+                            <h3>Manuscritos</h3> 
+                            <p>[Fac-símiles digitalizados, metadados e transcrições]</p> 
+                            <a class="card__link" href="arquivo.html#documentos">Ver manuscritos →</a> 
+                        </article>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <section class="section" id="prosa"> 
+                <div class="container"> 
+                    <h2>Prosa</h2> 
+                    <p class="lead">Contos, crónicas e ensaios sobre teatro.</p> 
+                    <div class="cards"> 
+                        <article class="card"> 
+                            <h3>Contos & Crónicas</h3> 
+                            <p>[Textos editados / referências a publicações em revistas e jornais]</p> 
+                            <a class="card__link" href="#prosa">Ler textos →</a> 
+                        </article>                         
+                        <article class="card"> 
+                            <h3>Ensaios</h3> 
+                            <p>[Reflexões sobre criação, encenação e estética teatral]</p> 
+                            <a class="card__link" href="#prosa">Ver ensaios →</a> 
+                        </article>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <section class="section" id="teatro-textos"> 
+                <div class="container"> 
+                    <h2>Textos para Teatro</h2> 
+                    <p class="lead">Originais, versões e traduções, com histórico de encenação e recepção crítica.</p> 
+                    <div class="cards"> 
+                        <article class="card"> 
+                            <h3>Originais</h3> 
+                            <p>[Lista de peças originais com sinopse e datas]</p> 
+                            <a class="card__link" href="#teatro-textos">Ver originais →</a> 
+                        </article>                         
+                        <article class="card"> 
+                            <h3>Versões & Traduções</h3> 
+                            <p>[Peças adaptadas e traduzidas; notas e contexto de produção]</p> 
+                            <a class="card__link" href="#teatro-textos">Ver versões →</a> 
+                        </article>                         
+                    </div>                     
+                </div>                 
+            </section>             
+        </main>         
+        <footer class="site-footer" role="contentinfo"> 
+            <div class="container footer__wrap"> 
+                <div class="footer__brand"> 
+                    <span class="brand__logo brand__logo--small" aria-hidden="true">CW</span> 
+                    <span class="brand__name">Centenário de Carlos Wallenstein</span> 
+                </div>                 
+                <nav class="footer__nav" aria-label="Rodapé"> 
+                    <a href="sobre.html">Sobre</a> 
+                    <a href="creditos.html">Créditos</a> 
+                    <a href="direitos.html">Direitos</a> 
+                    <a href="contactos.html">Contactos</a> 
+                </nav>                 
+                <p class="muted">© 2026 — Comissão do Centenário.</p> 
+            </div>             
+        </footer>         
+        <script>
+    (function () {
+      const btn = document.querySelector('.site-nav__toggle');
+      const menu = document.getElementById('menu');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        menu.classList.toggle('is-open');
+      });
+    })();
+  </script>         
+    </body>     
+</html>

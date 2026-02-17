@@ -1,0 +1,161 @@
+<!doctype html> 
+<html lang="pt"> 
+    <head> 
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <title>Arquivo Multimédia — Carlos Wallenstein</title>         
+        <meta name="description" content="Arquivo multimédia de Carlos Wallenstein: fotografias, documentos, áudio e vídeo."/> 
+        <link rel="stylesheet" href="styles.css"/> 
+    </head>     
+    <body> 
+        <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a> 
+        <header class="site-header" role="banner"> 
+            <div class="container header__wrap"> 
+                <a class="brand" href="index.html"> <span class="brand__logo" aria-hidden="true">CW</span> <span class="brand__name">Carlos Wallenstein</span> <span class="brand__years">1926–2026</span> </a> 
+                <nav class="site-nav" aria-label="Navegação principal"> 
+                    <button class="site-nav__toggle" aria-expanded="false" aria-controls="menu">Menu</button>                     
+                    <ul id="menu" class="site-nav__list"> 
+                        <li>
+                            <a href="biografia.html">Biografia</a>
+                        </li>                         
+                        <li>
+                            <a href="obra.html">Obra Literária</a>
+                        </li>                         
+                        <li>
+                            <a href="arquivo.html" aria-current="page">Arquivo Multimédia</a>
+                        </li>                         
+                        <li>
+                            <a href="index.html#centenario">Centenário 2026</a>
+                        </li>                         
+                        <li>
+                            <a href="index.html#contribua">Contribua</a>
+                        </li>                         
+                    </ul>                     
+                </nav>                 
+            </div>             
+        </header>         
+        <main id="conteudo"> 
+            <section class="hero hero--sub"> 
+                <div class="container hero__content"> 
+                    <h1 class="hero__title">Arquivo Multimédia</h1> 
+                    <p class="hero__subtitle">Fotografias, documentos, áudio e vídeo.</p> 
+                </div>                 
+            </section>             
+            <!-- Filtros simples (estáticos; pode evoluir) -->             
+            <section class="section"> 
+                <div class="container"> 
+                    <h2>Explorar</h2> 
+                    <p class="lead">Use as categorias para navegar pelo acervo. (Filtros dinâmicos podem ser adicionados no futuro.)</p> 
+                    <div class="cards cards--media" id="fotografias"> 
+                        <article class="card media"> 
+                            <img class="media__thumb" src="assets/thumb-foto.svg" alt="Miniatura fotos"/> 
+                            <div class="media__body"> 
+                                <h3>Fotografias</h3> 
+                                <p>Retratos, bastidores, ensaios e cena.</p> 
+                                <a class="text-link" href="#fotografias">Ver coleção →</a> 
+                            </div>                             
+                        </article>                         
+                        <article class="card media" id="documentos"> 
+                            <img class="media__thumb" src="assets/thumb-programa.svg" alt="Miniatura documentos"/> 
+                            <div class="media__body"> 
+                                <h3>Documentos</h3> 
+                                <p>Programas, cartazes, folhas de sala, recortes de imprensa, manuscritos.</p> 
+                                <a class="text-link" href="#documentos">Ver documentos →</a> 
+                            </div>                             
+                        </article>                         
+                        <article class="card media" id="audio-video"> 
+                            <img class="media__thumb" src="assets/thumb-audio.svg" alt="Miniatura AV"/> 
+                            <div class="media__body"> 
+                                <h3>Áudio & Vídeo</h3> 
+                                <p>Entrevistas, excertos teatrais, teatro radiofónico, registos audiovisuais.</p> 
+                                <a class="text-link" href="#audio-video">Ver AV →</a> 
+                            </div>                             
+                        </article>                         
+                    </div>                     
+                    <details class="hint"> 
+                        <summary>Sugestão de taxonomia</summary>                         
+                        <p class="muted">Etiquetas por <strong>ano</strong>, <strong>obra</strong>, <strong>local</strong>, <strong>género</strong> e <strong>tipo</strong> (foto, programa, áudio…).</p> 
+                    </details>                     
+                </div>                 
+            </section>             
+            <!-- Formulário "Contribua" (estático; sem backend) -->             
+            <section class="section" id="contribua-form"> 
+                <div class="container grid grid--2col"> 
+                    <div> 
+                        <h2>Contribua para o Arquivo</h2> 
+                        <p class="lead">Envie materiais relacionados com Carlos Wallenstein. (Este formulário é demonstrativo; a recepção de ficheiros requer backend.)</p> 
+                        <form> 
+                            <label>Nome<br>
+                                <input type="text" placeholder="O seu nome" required/>
+                            </label>
+                            <br>
+                            <br> 
+                            <label>Email<br>
+                                <input type="email" placeholder="o.seu@email" required/>
+                            </label>
+                            <br>
+                            <br> 
+                            <label>Mensagem<br>
+                                <textarea rows="5" placeholder="Descreva os materiais e direitos associados"></textarea>
+                            </label>
+                            <br>
+                            <br> 
+                            <label>Ficheiro (link ou referência)<br>
+                                <input type="url" placeholder="https://..."/>
+                            </label>
+                            <br>
+                            <br> 
+                            <button class="btn" type="submit">Enviar</button>                             
+                            <button class="btn btn--outline" type="reset">Limpar</button>                             
+                        </form>                         
+                    </div>                     
+                    <aside> 
+                        <div class="notice"> 
+                            <strong>Nota:</strong> Para aceitar uploads diretos (ficheiros), será necessário configurar um serviço no servidor (por ex., formulário com backend ou integração com storage).
+                        </div>                         
+                    </aside>                     
+                </div>                 
+            </section>             
+            <!-- Secção de Imprensa (placeholder) -->             
+            <section class="section" id="imprensa"> 
+                <div class="container"> 
+                    <h2>Arquivo de Imprensa</h2> 
+                    <p class="lead">Recortes, notícias e reportagens sobre o centenário e a obra.</p> 
+                    <ul> 
+                        <li>[Título de notícia] — <span class="muted">Publicação, data</span>
+                        </li>                         
+                        <li>[Título de reportagem] — <span class="muted">Publicação, data</span>
+                        </li>                         
+                    </ul>                     
+                </div>                 
+            </section>             
+        </main>         
+        <footer class="site-footer" role="contentinfo"> 
+            <div class="container footer__wrap"> 
+                <div class="footer__brand"> 
+                    <span class="brand__logo brand__logo--small" aria-hidden="true">CW</span> 
+                    <span class="brand__name">Centenário de Carlos Wallenstein</span> 
+                </div>                 
+                <nav class="footer__nav" aria-label="Rodapé"> 
+                    <a href="sobre.html">Sobre</a> 
+                    <a href="creditos.html">Créditos</a> 
+                    <a href="direitos.html">Direitos</a> 
+                    <a href="contactos.html">Contactos</a> 
+                </nav>                 
+                <p class="muted">© 2026 — Comissão do Centenário.</p> 
+            </div>             
+        </footer>         
+        <script>
+    (function () {
+      const btn = document.querySelector('.site-nav__toggle');
+      const menu = document.getElementById('menu');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        menu.classList.toggle('is-open');
+      });
+    })();
+  </script>         
+    </body>     
+</html>
