@@ -113,9 +113,8 @@ body{
 .hero{
   position: relative;
   background:
-    linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.75)),
-    url('assets/hero-wallenstein.svg') center/cover no-repeat;
-  color: #fff;
+    linear-gradient(to bottom, rgba(0,0,0,.75), rgba(0,0,0,.85)),
+      color: #fff;
 }
 .hero__content{
   padding: clamp(3rem, 6vw, 7rem) 0;
@@ -219,4 +218,5 @@ body{
 .footer__brand{ display: flex; align-items: center; gap: .5rem; }
 .footer__nav{ display: flex; flex-wrap: wrap; gap: .75rem; }
 .footer__nav a{ color: var(--text-muted); }
+
 .footer__nav a:hover{ color: var(--text); }
