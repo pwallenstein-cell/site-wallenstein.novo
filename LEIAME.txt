@@ -1,0 +1,9 @@
+Coloque aqui os PDFs finais dos quatro volumes, com EXATAMENTE estes nomes:
+
+  vol1-poesia.pdf
+  vol2-contos-e-cronicas.pdf
+  vol3-teatro-radiofonico.pdf
+  vol4-teatro.pdf
+
+Os botões "Ler online" e "Descarregar PDF" da página Obra Literária apontam para estes nomes.
+Atenção: o GitHub recusa ficheiros com mais de 100 MB. Se um PDF for maior, comprima-o antes.

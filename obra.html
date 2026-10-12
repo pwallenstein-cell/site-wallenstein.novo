@@ -38,61 +38,74 @@
             <section class="hero hero--sub"> 
                 <div class="container hero__content"> 
                     <h1 class="hero__title">Obra Literária</h1> 
-                    <p class="hero__subtitle">Poesia, prosa e textos para teatro.</p> 
+                    <p class="hero__subtitle">Obras Completas — Edição do Centenário, em quatro volumes.</p> 
+                    <div class="jumpbar" style="justify-content:center">
+                        <a class="btn btn--outline" href="#poesia">Poesia</a>
+                        <a class="btn btn--outline" href="#prosa">Contos e Crónicas</a>
+                        <a class="btn btn--outline" href="#teatro-radiofonico">Teatro Radiofónico</a>
+                        <a class="btn btn--outline" href="#teatro-textos">Teatro</a>
+                    </div>
                 </div>                 
             </section>             
-            <section class="section" id="poesia"> 
+            <section class="section" id="obras-completas"> 
                 <div class="container"> 
-                    <h2>Poesia</h2> 
-                    <p class="lead">Poemas publicados e inéditos; manuscritos e dossiês de preparação.</p> 
-                    <div class="cards"> 
-                        <article class="card"> 
-                            <h3>Poemas selecionados</h3> 
-                            <p>[Breve apresentação + ligação para leitura/visualização]</p> 
-                            <a class="card__link" href="#poesia">Ler seleção →</a> 
-                        </article>                         
-                        <article class="card"> 
-                            <h3>Manuscritos</h3> 
-                            <p>[Fac-símiles digitalizados, metadados e transcrições]</p> 
-                            <a class="card__link" href="arquivo.html#documentos">Ver manuscritos →</a> 
-                        </article>                         
+                    <h2>Obras Completas</h2> 
+                    <p class="lead">Cada volume pode ser lido no navegador ou descarregado em PDF.</p> 
+                    <div class="books"> 
+                        <article class="book" id="poesia">
+                            <img class="book__cover" src="assets/capas/vol1.jpg" alt="Capa do volume 1, Poesia" width="150" height="212" loading="lazy"/>
+                            <div>
+                                <span class="book__vol">Volume 1</span>
+                                <h3>Poesia</h3>
+                                <p>A obra poética de Carlos Wallenstein reunida num só volume. Organização de Maria do Bom Sucesso Medeiros Franco; introdução de Pedro Tamen.</p>
+                                <ul class="book__meta"><li>Edição do Centenário, 2026</li><li>≈ 340 pp.</li><li>PDF</li></ul>
+                                <div class="book__actions">
+                                    <a class="btn" href="livros/vol1-poesia.pdf">Ler online</a>
+                                    <a class="btn btn--ghost" href="livros/vol1-poesia.pdf" download>Descarregar PDF</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="book" id="prosa">
+                            <img class="book__cover" src="assets/capas/vol2.jpg" alt="Capa do volume 2, Contos e Crónicas" width="150" height="212" loading="lazy"/>
+                            <div>
+                                <span class="book__vol">Volume 2</span>
+                                <h3>Contos e Crónicas</h3>
+                                <p>Os contos e as crónicas de Carlos Wallenstein, reunidos em edição digital.</p>
+                                <ul class="book__meta"><li>Edição do Centenário, 2026</li><li>≈ 415 pp.</li><li>PDF</li></ul>
+                                <div class="book__actions">
+                                    <a class="btn" href="livros/vol2-contos-e-cronicas.pdf">Ler online</a>
+                                    <a class="btn btn--ghost" href="livros/vol2-contos-e-cronicas.pdf" download>Descarregar PDF</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="book" id="teatro-radiofonico">
+                            <img class="book__cover" src="assets/capas/vol3.jpg" alt="Capa do volume 3, Teatro Radiofónico" width="150" height="212" loading="lazy"/>
+                            <div>
+                                <span class="book__vol">Volume 3</span>
+                                <h3>Teatro Radiofónico</h3>
+                                <p>Os textos de Carlos Wallenstein para teatro radiofónico, reunidos em edição digital.</p>
+                                <ul class="book__meta"><li>Edição do Centenário, 2026</li><li>≈ 450 pp.</li><li>PDF</li></ul>
+                                <div class="book__actions">
+                                    <a class="btn" href="livros/vol3-teatro-radiofonico.pdf">Ler online</a>
+                                    <a class="btn btn--ghost" href="livros/vol3-teatro-radiofonico.pdf" download>Descarregar PDF</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="book" id="teatro-textos">
+                            <img class="book__cover" src="assets/capas/vol4.jpg" alt="Capa do volume 4, Teatro" width="150" height="212" loading="lazy"/>
+                            <div>
+                                <span class="book__vol">Volume 4</span>
+                                <h3>Teatro</h3>
+                                <p>Os textos de Carlos Wallenstein para teatro, reunidos em edição digital.</p>
+                                <ul class="book__meta"><li>Edição do Centenário, 2026</li><li>≈ 660 pp.</li><li>PDF</li></ul>
+                                <div class="book__actions">
+                                    <a class="btn" href="livros/vol4-teatro.pdf">Ler online</a>
+                                    <a class="btn btn--ghost" href="livros/vol4-teatro.pdf" download>Descarregar PDF</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>                     
-                </div>                 
-            </section>             
-            <section class="section" id="prosa"> 
-                <div class="container"> 
-                    <h2>Prosa</h2> 
-                    <p class="lead">Contos, crónicas e ensaios sobre teatro.</p> 
-                    <div class="cards"> 
-                        <article class="card"> 
-                            <h3>Contos & Crónicas</h3> 
-                            <p>[Textos editados / referências a publicações em revistas e jornais]</p> 
-                            <a class="card__link" href="#prosa">Ler textos →</a> 
-                        </article>                         
-                        <article class="card"> 
-                            <h3>Ensaios</h3> 
-                            <p>[Reflexões sobre criação, encenação e estética teatral]</p> 
-                            <a class="card__link" href="#prosa">Ver ensaios →</a> 
-                        </article>                         
-                    </div>                     
-                </div>                 
-            </section>             
-            <section class="section" id="teatro-textos"> 
-                <div class="container"> 
-                    <h2>Textos para Teatro</h2> 
-                    <p class="lead">Originais, versões e traduções, com histórico de encenação e recepção crítica.</p> 
-                    <div class="cards"> 
-                        <article class="card"> 
-                            <h3>Originais</h3> 
-                            <p>[Lista de peças originais com sinopse e datas]</p> 
-                            <a class="card__link" href="#teatro-textos">Ver originais →</a> 
-                        </article>                         
-                        <article class="card"> 
-                            <h3>Versões & Traduções</h3> 
-                            <p>[Peças adaptadas e traduzidas; notas e contexto de produção]</p> 
-                            <a class="card__link" href="#teatro-textos">Ver versões →</a> 
-                        </article>                         
-                    </div>                     
+                    <p class="muted" style="margin-top:1.5rem">Manuscritos e fac-símiles digitalizados serão publicados no <a href="arquivo.html#documentos">Arquivo Multimédia</a>.</p> 
                 </div>                 
             </section>             
         </main>         

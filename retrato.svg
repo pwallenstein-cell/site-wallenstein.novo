@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800">
+  <rect width="640" height="800" fill="#1a1b22"/>
+  <rect x="60" y="60" width="520" height="680" rx="8" fill="#22232a" stroke="#2a2b33"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        fill="#b9bbc2" font-family="Georgia, serif" font-size="28">Retrato (placeholder)</text>
+  <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle"
+        fill="#d7b56d" font-family="Georgia, serif" font-size="18">Carlos Wallenstein</text>
+</svg>
