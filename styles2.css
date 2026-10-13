@@ -281,3 +281,28 @@ body{
 .hero--split .hero__grid{ display: block; text-align: center; padding: 2rem 0 1.5rem; }
 .hero--split .hero__photo{ max-width: 340px; margin: 0 auto 1.25rem; }
 .hero--split .hero__content{ text-align: center; }
+
+
+/* Centenário: programa e parceiros */
+.tl__year .muted{ font-size: .8rem; font-weight: 400; }
+.prog{ margin: .4rem 0 0; padding-left: 1.1rem; }
+.prog li{ margin-bottom: .55rem; }
+.prog ul{ margin: .35rem 0 0; padding-left: 1.1rem; font-size: .95rem; }
+.prog ul li{ margin-bottom: .3rem; }
+.partners{ list-style: none; margin: 1rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .9rem; align-items: center; }
+.partners li{ background: #fff; border-radius: 6px; padding: .6rem .9rem; display: flex; align-items: center; }
+.partners img{ height: 54px; width: auto; max-width: 190px; object-fit: contain; display: block; }
+
+/* Início: assinatura por baixo do menu */
+.hero > .hero__signature{ display:block; width:min(280px,60%); height:auto; margin:0 auto 1rem; }
+
+
+/* Galerias (Fotografias, Documentos) */
+.gal{ display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1rem; align-items: start; }
+.gal__item{ margin: 0; background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.gal__item img{ width: 100%; height: auto; display: block; }
+.gal__item--small img{ width: auto; max-width: 100%; margin: 1rem auto 0; }
+.gal__item--wide{ grid-column: span 2; }
+.gal__item figcaption{ padding: .75rem .9rem 1rem; font-size: .9rem; line-height: 1.5; }
+.gal__credit{ display: block; margin-top: .3rem; font-size: .78rem; color: var(--text-muted); font-style: italic; }
+@media (max-width: 640px){ .gal__item--wide{ grid-column: auto; } }
