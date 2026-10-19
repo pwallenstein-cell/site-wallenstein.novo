@@ -121,7 +121,7 @@
                     <p class="muted" style="margin-top:1rem">As gravações estão alojadas no YouTube; este site apenas liga para elas. Capas: reprodução das edições originais, direitos reservados aos respetivos titulares.</p>
                 </div>
             </section>
-            <!-- Formulário "Contribua" (estático; sem backend) -->             
+            <!-- Contribua (por email) -->             
             <section class="section" id="televisao">
                 <div class="container">
                     <h2>Televisão e entrevistas</h2>
@@ -156,35 +156,17 @@
                 <div class="container grid grid--2col"> 
                     <div> 
                         <h2>Contribua para o Arquivo</h2> 
-                        <p class="lead">Envie materiais relacionados com Carlos Wallenstein. (Este formulário é demonstrativo; a recepção de ficheiros requer backend.)</p> 
-                        <form> 
-                            <label>Nome<br>
-                                <input type="text" placeholder="O seu nome" required/>
-                            </label>
-                            <br>
-                            <br> 
-                            <label>Email<br>
-                                <input type="email" placeholder="o.seu@email" required/>
-                            </label>
-                            <br>
-                            <br> 
-                            <label>Mensagem<br>
-                                <textarea rows="5" placeholder="Descreva os materiais e direitos associados"></textarea>
-                            </label>
-                            <br>
-                            <br> 
-                            <label>Ficheiro (link ou referência)<br>
-                                <input type="url" placeholder="https://..."/>
-                            </label>
-                            <br>
-                            <br> 
-                            <button class="btn" type="submit">Enviar</button>                             
-                            <button class="btn btn--outline" type="reset">Limpar</button>                             
-                        </form>                         
+                        <p class="lead">Tem fotografias, documentos, programas, testemunhos ou registos audiovisuais relacionados com Carlos Wallenstein? Escreva-nos para <a class="mail" data-assunto="Contributo para o Arquivo Carlos Wallenstein" href="contactos.html">carloswallenstein100 [arroba] gmail [ponto] com</a>.</p>
+                        <ul class="list-check"> 
+                            <li>Indique, sempre que possível, quem aparece, a data, o local e o autor.</li>
+                            <li>Diga se autoriza a publicação e em que condições.</li>
+                            <li>Para ficheiros grandes, envie uma ligação (Drive, WeTransfer ou semelhante).</li>
+                        </ul>
+                        <p><a class="btn mail" data-botao="1" data-assunto="Contributo para o Arquivo Carlos Wallenstein" href="contactos.html">Enviar mensagem</a></p>
                     </div>                     
                     <aside> 
                         <div class="notice"> 
-                            <strong>Nota:</strong> Para aceitar uploads diretos (ficheiros), será necessário configurar um serviço no servidor (por ex., formulário com backend ou integração com storage).
+                            <strong>Nota legal:</strong> A publicação de materiais está sujeita à verificação de direitos. Veja <a href="direitos.html">Direitos e utilização</a>.
                         </div>                         
                     </aside>                     
                 </div>                 
@@ -231,5 +213,6 @@
     })();
 
   </script>         
-    </body>     
+    <script src="contacto.js" defer></script>
+</body>     
 </html>
