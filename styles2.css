@@ -294,7 +294,8 @@ body{
 .partners img{ height: 54px; width: auto; max-width: 190px; object-fit: contain; display: block; }
 
 /* Início: assinatura por baixo do menu */
-.hero > .hero__signature{ display:block; width:min(280px,60%); height:auto; margin:0 auto 1rem; }
+.hero > .hero__signature{ display:block; position:absolute; right:10%; top:290px; width:min(440px,36vw); height:auto; border-radius:2px; }
+@media (max-width: 900px){ .hero > .hero__signature{ position:static; width:min(320px,75%); margin:1rem auto 0; } }
 
 
 /* Galerias (Fotografias, Documentos) */
@@ -306,3 +307,10 @@ body{
 .gal__item figcaption{ padding: .75rem .9rem 1rem; font-size: .9rem; line-height: 1.5; }
 .gal__credit{ display: block; margin-top: .3rem; font-size: .78rem; color: var(--text-muted); font-style: italic; }
 @media (max-width: 640px){ .gal__item--wide{ grid-column: auto; } }
+
+/* Menu: evita quebras de linha em ecrãs médios */
+@media (min-width: 861px) and (max-width: 1200px){
+  .site-nav__list{ gap: .8rem; }
+  .site-nav__list a{ white-space: nowrap; font-size: .9rem; }
+  .brand__years{ display: none; }
+}
