@@ -354,3 +354,10 @@ body{
 
 .quote{ margin: 1rem 0 1.5rem; padding: .2rem 0 .2rem 1.1rem; border-left: 3px solid var(--brand); color: var(--text-muted); font-size: .95rem; overflow: hidden; }
 .quote footer{ font-size: .8rem; font-style: italic; margin-top: .4rem; }
+
+/* Centenário: cartazes e programas */
+.postais{ display: flex; flex-wrap: wrap; gap: .9rem; margin-top: .9rem; }
+.postais figure{ margin: 0; width: min(300px, 100%); }
+.postais--geral figure{ width: min(460px, 100%); }
+.postais img{ display: block; width: 100%; height: auto; border-radius: 3px; border: 1px solid var(--border); }
+.postais figcaption{ margin-top: .3rem; font-size: .78rem; color: var(--text-muted); }
