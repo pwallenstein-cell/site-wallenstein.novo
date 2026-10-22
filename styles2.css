@@ -361,3 +361,8 @@ body{
 .postais--geral figure{ width: min(460px, 100%); }
 .postais img{ display: block; width: 100%; height: auto; border-radius: 3px; border: 1px solid var(--border); }
 .postais figcaption{ margin-top: .3rem; font-size: .78rem; color: var(--text-muted); }
+
+/* Quadro genealógico */
+.tbl--gen th:nth-child(1){ width: 34%; } .tbl--gen th:nth-child(2){ width: 24%; } .tbl--gen th:nth-child(3){ width: auto; }
+.tbl--gen td:nth-child(2){ color: var(--text-muted); }
+.tbl--gen tr.tbl__grp td{ font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--brand); padding-top: 1.1rem; border-bottom: 1px solid var(--brand); }
