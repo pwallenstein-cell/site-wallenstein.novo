@@ -294,7 +294,7 @@ body{
 .partners img{ height: 54px; width: auto; max-width: 190px; object-fit: contain; display: block; }
 
 /* Início: assinatura por baixo do menu */
-.hero > .hero__signature{ display:block; position:absolute; right:10%; top:290px; width:min(440px,36vw); height:auto; border-radius:2px; }
+.hero > .hero__signature{ display:block; position:absolute; right:10%; top:290px; width:min(540px,calc(90vw - 490px)); height:auto; mix-blend-mode:screen; }
 @media (max-width: 900px){ .hero > .hero__signature{ position:static; width:min(320px,75%); margin:1rem auto 0; } }
 
 
