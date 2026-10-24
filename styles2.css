@@ -366,3 +366,14 @@ body{
 .tbl--gen th:nth-child(1){ width: 34%; } .tbl--gen th:nth-child(2){ width: 24%; } .tbl--gen th:nth-child(3){ width: auto; }
 .tbl--gen td:nth-child(2){ color: var(--text-muted); }
 .tbl--gen tr.tbl__grp td{ font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--brand); padding-top: 1.1rem; border-bottom: 1px solid var(--brand); }
+
+/* Nota autobiográfica: páginas à esquerda, transcrição à direita */
+.nota{ display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr); gap:1.5rem; align-items:start; margin-top:1rem; }
+.nota__imgs{ display:grid; gap:1rem; }
+.nota__imgs figure{ margin:0; background:var(--bg-alt); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
+.nota__imgs img{ width:100%; height:auto; display:block; }
+.nota__imgs figcaption{ padding:.4rem .75rem; font-size:.8rem; color:var(--text-muted); }
+.nota__txt{ font-size:.88rem; line-height:1.55; }
+.nota__txt p{ margin:0 0 .9rem; }
+.nota__cap{ margin-top:1.5rem; background:var(--bg-alt); border:1px solid var(--border); border-radius:var(--radius); padding:1rem 1.25rem; font-size:.9rem; color:var(--text-muted); }
+@media (max-width:800px){ .nota{ grid-template-columns:1fr; } }
