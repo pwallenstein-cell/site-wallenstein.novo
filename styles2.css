@@ -377,3 +377,7 @@ body{
 .nota__txt p{ margin:0 0 .9rem; }
 .nota__cap{ margin-top:1.5rem; background:var(--bg-alt); border:1px solid var(--border); border-radius:var(--radius); padding:1rem 1.25rem; font-size:.9rem; color:var(--text-muted); }
 @media (max-width:800px){ .nota{ grid-template-columns:1fr; } }
+
+/* Galerias a duas colunas (Documentos: Serrana) */
+.gal--2{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 640px){ .gal--2{ grid-template-columns: 1fr; } }
