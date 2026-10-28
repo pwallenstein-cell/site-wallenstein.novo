@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160">
+  <rect width="240" height="160" fill="#1a1b22" stroke="#2a2b33"/>
+  <g fill="none" stroke="#d7b56d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- microfone -->
+    <rect x="42" y="50" width="22" height="40" rx="11"/>
+    <path d="M34 78a19 19 0 0 0 38 0M53 97v14M43 111h20"/>
+    <!-- play -->
+    <circle cx="120" cy="80" r="31"/>
+    <path d="M111 65v30l26-15z" fill="#d7b56d"/>
+    <!-- auscultadores -->
+    <path d="M176 92v-12a21 21 0 0 1 42 0v12"/>
+    <rect x="170" y="88" width="12" height="24" rx="5" fill="#b29246" stroke="none"/>
+    <rect x="212" y="88" width="12" height="24" rx="5" fill="#b29246" stroke="none"/>
+  </g>
+  <text x="50%" y="90%" dominant-baseline="middle" text-anchor="middle" fill="#b9bbc2" font-family="Arial, sans-serif" font-size="13">Áudio &amp; Vídeo</text>
+</svg>
